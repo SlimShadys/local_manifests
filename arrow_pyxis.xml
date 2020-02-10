@@ -16,6 +16,5 @@
   <project path="vendor/xiaomi/pyxis" name="xiaomi-sdm710/android_vendor_xiaomi_pyxis" remote="github" revision="scratch" />
 
   <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github" revision="lineage-17.1" />
-  <project path="hardware/qcom-caf/common" name="LineageOS/android_hardware_qcom-caf_common" remote="github" revision="lineage-17.1" />
 
 </manifest>
