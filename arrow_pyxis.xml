@@ -11,9 +11,8 @@
   <remove-project name="platform/prebuilts/python/darwin-x86/2.7.5" />
 
   <project path="device/xiaomi/pyxis" name="SlimShadys/device_xiaomi_pyxis" remote="github" revision="ten" />
-  <project path="kernel/xiaomi/sdm710" name="coderzstas/pyxis_caf" remote="github" revision="master" />
-  <project path="device/xiaomi/sdm710-common" name="SlimShadys/device_xiaomi_sdm710-common" remote="github" revision="ten" />
-  <project path="vendor/xiaomi/pyxis" name="xiaomi-sdm710/android_vendor_xiaomi_pyxis" remote="github" revision="scratch" />
+  <project path="kernel/xiaomi/pyxis" name="Mashopy/kernel_xiaomi_pyxis" remote="github" revision="master" />
+  <project path="vendor/xiaomi/pyxis" name="Mashopy/vendor_xiaomi_pyxis" remote="github" revision="ten" />
 
   <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github" revision="lineage-17.1" />
 
