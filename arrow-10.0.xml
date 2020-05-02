@@ -14,8 +14,8 @@
 
   <!-- Pyxis -->
   <project path="device/xiaomi/pyxis" name="SlimShadys/device_xiaomi_pyxis" remote="github" revision="arrow-10.0" />
-  <project path="kernel/xiaomi/sdm710" name="TheMalachite/IceCream_kernel" remote="github" revision="pyxis-vela" />
-  <project path="vendor/xiaomi/pyxis" name="xiaomi-pyxis/android_vendor_xiaomi_pyxis" remote="github" revision="master" />
+  <project path="kernel/xiaomi/sdm710" name="SlimShadys/kernel_pyxis_vela-phoenix" remote="github" revision="ten" />
+  <project path="vendor/xiaomi/pyxis" name="SlimShadys/android_vendor_xiaomi_pyxis" remote="github" revision="master" />
 
   <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github" revision="lineage-17.1" />
   
