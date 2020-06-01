@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <remote name="gitlab"
+          fetch="https://gitlab.com/"
+          revision="master" />
+
   <!-- Remove useless ArrowOS stuff -->
   <remove-project name="platform/prebuilts/clang/host/darwin-x86" />
   <remove-project name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" />
@@ -47,6 +51,6 @@
   <!-- Face Unlock -->
   <remove-project name="android_packages_apps_Settings" />
   <project path="packages/apps/Settings" name="SlimShadys/android_packages_apps_Settings" remote="github" revision="arrow-10.0" />
-  <project path="external/motorola/faceunlock" name="SlimShadys/external_motorola_faceunlock" remote="github" revision="10.0" />
+  <project path="external/motorola/faceunlock" name="SlimShadys/external_f-ulk" remote="gitlab" revision="master" />
 
 </manifest>
