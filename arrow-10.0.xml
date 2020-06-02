@@ -18,9 +18,9 @@
   <!-- Pyxis -->
   <project path="device/xiaomi/pyxis" name="SlimShadys/device_xiaomi_pyxis" remote="github" revision="arrow-10.0" />
   <project path="vendor/xiaomi/pyxis" name="SlimShadys/android_vendor_xiaomi_pyxis" remote="github" revision="master" />
-  <project path="kernel/xiaomi/pyxis" name="nysascape/kernel_xiaomi_pyxis" remote="github" revision="ten" />
+  <project path="kernel/xiaomi/pyxis" name="MemeGang-Development/HentaiKremul" remote="github" revision="AkenoHimejima" />
    
-  <project path="prebuilts/clang/host/linux-x86/clang-11" name="RevengeOS/prebuilts_clang_host_linux-x86_clang-11" remote="github" revision="r10.0" />
+  <project path="prebuilts/clang/host/linux-x86/clang-11" name="kdrag0n/proton-clang" remote="github" revision="master" />
 
   <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github" revision="lineage-17.1" />
   
