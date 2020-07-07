@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <!-- Remove AOSP stuff -->
+  <remove-project name="platform/prebuilts/clang/host/linux-x86" />
+
   <!-- Dreamlte -->  
   <project path="device/samsung/dreamlte" name="SlimShadys/android_device_samsung_dreamlte" remote="github" revision="Q" />
   <project path="vendor/samsung/dreamlte" name="exynos8895/android_vendor_samsung_dreamlte" remote="github" revision="lineage-17.1" />
@@ -18,5 +21,6 @@
   <project path="kernel/xiaomi/pyxis" name="MemeGang-Development/HentaiKremul" remote="github" revision="AkenoHimejima" />
    
   <project path="prebuilts/clang/host/linux-x86/clang-11" name="kdrag0n/proton-clang" remote="github" revision="master" />
+  <project path="prebuilts/clang/host/linux-x86" name="AOSIP/platform_prebuilts_clang_host_linux-x86" remote="github" revision="ten" />
 
 </manifest>

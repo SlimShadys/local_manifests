@@ -6,6 +6,7 @@
           revision="master" />
 
   <!-- Remove useless ArrowOS stuff -->
+  <remove-project name="platform/prebuilts/clang/host/linux-x86" />
   <remove-project name="platform/prebuilts/clang/host/darwin-x86" />
   <remove-project name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" />
   <remove-project name="platform/prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" />
@@ -21,6 +22,7 @@
   <project path="kernel/xiaomi/pyxis" name="MemeGang-Development/HentaiKremul" remote="github" revision="AkenoHimejima" />
    
   <project path="prebuilts/clang/host/linux-x86/clang-11" name="kdrag0n/proton-clang" remote="github" revision="master" />
+  <project path="prebuilts/clang/host/linux-x86" name="AOSIP/platform_prebuilts_clang_host_linux-x86" remote="github" revision="ten" />
 
   <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github" revision="lineage-17.1" />
   
