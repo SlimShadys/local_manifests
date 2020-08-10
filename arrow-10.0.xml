@@ -23,8 +23,6 @@
    
   <project path="prebuilts/clang/host/linux-x86/clang-11" name="kdrag0n/proton-clang" remote="github" revision="master" />
   <project path="prebuilts/clang/host/linux-x86" name="AOSIP/platform_prebuilts_clang_host_linux-x86" remote="github" revision="ten" />
-
-  <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github" revision="lineage-17.1" />
   
   <!-- Dreamlte -->  
   <project path="device/samsung/dreamlte" name="SlimShadys/android_device_samsung_dreamlte" remote="github" revision="arrow-10.0" />
