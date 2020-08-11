@@ -18,7 +18,7 @@
   <!-- Pyxis -->
   <project path="device/xiaomi/pyxis" name="SlimShadys/device_xiaomi_pyxis" remote="github" revision="Q" />
   <project path="vendor/xiaomi/pyxis" name="SlimShadys/android_vendor_xiaomi_pyxis" remote="github" revision="master" />
-  <project path="kernel/xiaomi/pyxis" name="MemeGang-Development/HentaiKremul" remote="github" revision="AkenoHimejima" />
+  <project path="kernel/xiaomi/sdm710" name="SDM710-Development/android_kernel_xiaomi_sdm710" remote="github" revision="10.0-caf" />
    
   <project path="prebuilts/clang/host/linux-x86/clang-11" name="kdrag0n/proton-clang" remote="github" revision="master" />
   <project path="prebuilts/clang/host/linux-x86" name="AOSIP/platform_prebuilts_clang_host_linux-x86" remote="github" revision="ten" />
