@@ -16,6 +16,13 @@
   <remove-project name="platform/prebuilts/go/darwin-x86" />
   <remove-project name="platform/prebuilts/python/darwin-x86/2.7.5" />
 
+  <remove-project name="android_frameworks_base" />  
+  <remove-project name="android_hardware_arrow_interfaces" />
+  <remove-project name="android_packages_apps_Dialer" />
+  <remove-project name="android_packages_apps_Settings" />
+  <remove-project name="android_vendor_arrow" />
+  <remove-project name="android_vendor_qcom_opensource_fm-commonsys" />
+
   <!-- Pyxis -->
   <project path="device/xiaomi/pyxis" name="SlimShadys/device_xiaomi_pyxis" remote="github" revision="arrow-10.0" />
   <project path="vendor/xiaomi/pyxis" name="SlimShadys/android_vendor_xiaomi_pyxis" remote="github" revision="master" />
@@ -36,23 +43,14 @@
   <project path="hardware/samsung" name="SlimShadys/android_hardware_samsung" remote="github" revision="lineage-17.1" />
   
   <!-- ArrowOS -->
-  <remove-project name="android_packages_apps_Dialer" />
-  <remove-project name="android_hardware_arrow_interfaces" />
+  <project path="frameworks/base" name="SlimShadys/android_frameworks_base" remote="github" revision="arrow-10.0" />
   <project path="hardware/arrow/interfaces" name="SlimShadys/android_hardware_arrow_interfaces" remote="github" revision="arrow-10.0" />
   <project path="packages/apps/Dialers" name="SlimShadys/android_packages_apps_Dialer" remote="github" revision="arrow-10.0" />
-  
-  <!-- FOD -->
-  <remove-project name="android_frameworks_base" />
-  <remove-project name="android_vendor_arrow" />
-  <remove-project name="android_vendor_qcom_opensource_fm-commonsys" />
-
-  <project path="vendor/qcom/opensource/fm-commonsys" name="LineageOS/android_vendor_qcom_opensource_fm-commonsys" remote="github" revision="lineage-17.1" />
-  <project path="frameworks/base" name="SlimShadys/android_frameworks_base" remote="github" revision="arrow-10.0" />
+  <project path="packages/apps/Settings" name="SlimShadys/android_packages_apps_Settings" remote="github" revision="arrow-10.0" />  
   <project path="vendor/arrow" name="SlimShadys/android_vendor_arrow" remote="github" revision="arrow-10.0" />
-  
-  <!-- Face Unlock -->
-  <remove-project name="android_packages_apps_Settings" />
-  <project path="packages/apps/Settings" name="SlimShadys/android_packages_apps_Settings" remote="github" revision="arrow-10.0" />
-  <project path="external/motorola/faceunlock" name="SlimShadys/external_f-ulk" remote="gitlab" revision="master" />
+
+  <!-- Others -->
+  <project path="vendor/qcom/opensource/fm-commonsys" name="LineageOS/android_vendor_qcom_opensource_fm-commonsys" remote="github" revision="lineage-17.1" />
+  <project path="external/motorola/faceunlock" name="SlimShadys/external_f-ulk" remote="gitlab" revision="master" />  
 
 </manifest>
