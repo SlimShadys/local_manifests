@@ -36,8 +36,10 @@
   <project path="hardware/samsung" name="SlimShadys/android_hardware_samsung" remote="github" revision="lineage-17.1" />
   
   <!-- ArrowOS -->
+  <remove-project name="android_packages_apps_Dialer" />
   <remove-project name="android_hardware_arrow_interfaces" />
   <project path="hardware/arrow/interfaces" name="SlimShadys/android_hardware_arrow_interfaces" remote="github" revision="arrow-10.0" />
+  <project path="packages/apps/Dialers" name="SlimShadys/android_packages_apps_Dialer" remote="github" revision="arrow-10.0" />
   
   <!-- FOD -->
   <remove-project name="android_frameworks_base" />
