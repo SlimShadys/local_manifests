@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Remove unnecessary packages -->
+  <remove-project name="android_hardware_arrow_interfaces" />
+  <remove-project name="android_device_arrow_sepolicy" />
+  <remove-project name="android_vendor_arrow" />
+  
+  <remove-project name="platform/prebuilts/clang/host/darwin-x86" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/mips/mips64el-linux-android-4.9" />  
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" />
+  <remove-project name="platform/prebuilts/gdb/darwin-x86" />
+  <remove-project name="platform/prebuilts/go/darwin-x86" />
+  <remove-project name="platform/prebuilts/python/darwin-x86/2.7.5" />
+  
+  <remove-project name="platform/system/security" />
+
+  <!-- Pyxis -->
+  <project name="SlimShadys/android_device_xiaomi_pyxis" path="device/xiaomi/pyxis" revision="arrow-11.0" remote="github" />
+  <project name="SlimShadys/android_device_xiaomi_sdm710-common" path="device/xiaomi/sdm710-common" revision="arrow-11.0" remote="github" />
+  <project name="SlimShadys/proprietary_vendor_xiaomi" path="vendor/xiaomi" revision="arrow-11.0" remote="github" />
+  <project name="SDM710-Development/android_kernel_xiaomi_sdm710" path="kernel/xiaomi/sdm710" revision="10.0-caf" remote="github" />
+  <project name="LineageOS/android_hardware_xiaomi" path="hardware/xiaomi" revision="lineage-18.1" remote="github" />
+  
+  <!-- Dreamlte -->
+  <project path="device/samsung/dreamlte" name="SlimShadys/android_device_samsung_dreamlte" remote="github" revision="arrow-11.0" />
+  <project path="vendor/samsung/dreamlte" name="Havoc-OS-8895/android_vendor_samsung_dreamlte" remote="github" revision="lineage-17.1" />
+  
+  <project path="device/samsung/universal8895-common" name="SlimShadys/android_device_samsung_universal8895-common" remote="github" revision="arrow-11.0" />
+  <project path="vendor/samsung/universal8895-common" name="SlimShadys/android_vendor_samsung_universal8895-common" remote="github" revision="arrow-11.0" />
+  
+  <project path="kernel/samsung/universal8895" name="exynos8895/android_kernel_samsung_universal8895" remote="github" revision="lineage-18.1" />
+   
+  <project path="hardware/samsung" name="SlimShadys/android_hardware_samsung" remote="github" revision="arrow-11.0" />
+  <project path="device/samsung_slsi/sepolicy" name="LineageOS/android_device_samsung_slsi_sepolicy" remote="github" revision="lineage-18.1" />
+  
+  <!-- ArrowOS -->
+  <project path="device/arrow/sepolicy" name="SlimShadys/android_device_arrow_sepolicy" remote="github" revision="arrow-11.0" />
+  <project path="hardware/arrow/interfaces" name="SlimShadys/android_hardware_arrow_interfaces" remote="github" revision="arrow-11.0" />
+  <project path="system/security" name="SlimShadys/android_system_security" remote="github" revision="arrow-11.0" />
+  <project path="vendor/arrow" name="SlimShadys/android_vendor_arrow" remote="github" revision="arrow-11.0" />
+ 
+</manifest>
