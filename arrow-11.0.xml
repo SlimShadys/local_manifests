@@ -3,7 +3,7 @@
 
   <!-- Remove unnecessary packages -->
   <remove-project name="android_hardware_arrow_interfaces" />
-  <remove-project name="android_device_arrow_sepolicy" />
+  <!--remove-project name="android_device_arrow_sepolicy" /> -->
   <remove-project name="android_vendor_arrow" />
   
   <remove-project name="platform/prebuilts/clang/host/darwin-x86" />
@@ -38,7 +38,7 @@
   <project path="device/samsung_slsi/sepolicy" name="LineageOS/android_device_samsung_slsi_sepolicy" remote="github" revision="lineage-18.1" />
   
   <!-- ArrowOS -->
-  <project path="device/arrow/sepolicy" name="SlimShadys/android_device_arrow_sepolicy" remote="github" revision="arrow-11.0" />
+  <!--project path="device/arrow/sepolicy" name="SlimShadys/android_device_arrow_sepolicy" remote="github" revision="arrow-11.0" /> -->
   <project path="hardware/arrow/interfaces" name="SlimShadys/android_hardware_arrow_interfaces" remote="github" revision="arrow-11.0" />
   <project path="system/security" name="SlimShadys/android_system_security" remote="github" revision="arrow-11.0" />
   <project path="vendor/arrow" name="SlimShadys/android_vendor_arrow" remote="github" revision="arrow-11.0" />
